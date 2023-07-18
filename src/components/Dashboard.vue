@@ -21,7 +21,6 @@
 
 <script>
 import { mapState } from 'vuex'
-
 import Sidebar from './Sidebar'
 import Navbar from './Navbar'
 import Footer from './Footer'
@@ -35,6 +34,9 @@ export default {
     Sidebar,
     Navbar,
     Footer
+  },
+
+  methods: {
   }
 }
 </script>
